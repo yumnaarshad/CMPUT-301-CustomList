@@ -53,6 +53,7 @@ public class CustomList extends ArrayAdapter<City> {
         return -1;
     }
 
+    /*
     public void addCity (City city){
         cities.add(city);
     }
@@ -67,4 +68,6 @@ public class CustomList extends ArrayAdapter<City> {
         return;
         //cities.remove(city);
     }
+
+     */
 }
