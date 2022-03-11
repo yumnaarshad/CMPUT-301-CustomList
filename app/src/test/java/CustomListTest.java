@@ -50,7 +50,7 @@ public class CustomListTest {
     public void getCountTest() {
         assertEquals(list.getCount(), 0);
         City city = new City("Edmonton", "AB");
-        list.add(city);
+        list.addCity(city);
         assertEquals(list.getCount(), 1);
 
 
